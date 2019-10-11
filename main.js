@@ -149,7 +149,7 @@ topLeft.addEventListener("click", event => {
 
 topRight.addEventListener("click", event => {
   if (on) {
-    playerOrder.push(1);
+    playerOrder.push(2);
     check();
     two();
     if (!win) {
@@ -162,7 +162,7 @@ topRight.addEventListener("click", event => {
 
 bottomLeft.addEventListener("click", event => {
   if (on) {
-    playerOrder.push(1);
+    playerOrder.push(3);
     check();
     three();
     if (!win) {
@@ -175,7 +175,7 @@ bottomLeft.addEventListener("click", event => {
 
 bottomRight.addEventListener("click", event => {
   if (on) {
-    playerOrder.push(1);
+    playerOrder.push(4);
     check();
     four();
     if (!win) {
